@@ -22,9 +22,9 @@
 if (isset($_POST['Submit1'])){
     $input=$_POST['inputbox'];
 
-       $uitkomst= strrev($input);
+       $output= strrev($input);
 
-       echo $uitkomst;
+       echo $output;
 
 
 
