@@ -33,8 +33,6 @@ if (isset($_POST["submit"])){
         echo "<img src='IMG/".$dier.".jpg'>";
     }
 
-}else{
-    error_log("choose an animal");
 }
 
 ?>
