@@ -19,6 +19,22 @@
 </FORM>
 <?php
 
+if (isset($_POST['Submit1'])){
+    $graden=$_POST['inputbox']/3;
+
+
+    if (is_int($graden)){
+    echo $graden;
+
+    }else{
+      echo 'Niet deelbaar door 3';
+
+    }
+
+
+
+}
+
 ?>
 </body>
 </html>
