@@ -23,13 +23,13 @@
 
         function checkCombo ($name, $password){
 
-            $email = array('piet@worldonline.nl', 'klaas@carpets.nl', 'truushendriks@wegweg.nl');
+            $username = array('piet@worldonline.nl', 'klaas@carpets.nl', 'truushendriks@wegweg.nl');
             $wachtwoord = array('doetje123', 'snoepje777', 'arkiearkie201');
             $combination;
 
-            if((($name == $email[0]) && ($password == $wachtwoord[0]))
-                or (($name == $email[1]) && ($password == $wachtwoord[1]))
-                or (($name == $email[2]) && ($password == $wachtwoord[2]))){
+            if((($name == $username[0]) && ($password == $wachtwoord[0]))
+                or (($name == $username[1]) && ($password == $wachtwoord[1]))
+                or (($name == $username[2]) && ($password == $wachtwoord[2]))){
                 echo "Welcome!";
                 $combination = true;
             } else {
