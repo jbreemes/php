@@ -9,21 +9,21 @@
 </head>
 <body>
 
+<?php
 
-<table border="1px">
-    <tr>
-        <th>Sr No         </th>
-        <th> Taxi</th>
-    </tr>
-    <?php $Taxi = array("swift", "alto", "toyoto", "I10");
-    $i=1;
-    foreach ($Taxi as $value) {
-        echo "<tr>";
-        echo "<td>$i </td>" ;
-        echo "<td>$value</td>";
-        echo "</tr>";
-        $i++;
-    } ?>
+$swimclub = array("De Spartelkuikens" => "25", "De Waterbuffels" => "32", "Plonsmderin" => "11", "Bommetje" => "23");
+
+$plaatje = 0;
+
+foreach ($swimclub as $club => $leden) {
+    $afgerondLedenAantal = floor($leden/5);
+    echo $club. " ". $leden;
+    for ($plaatje = 0; $plaatje < $afgerondLedenAantal; $plaatje++) {
+        echo "<img src='img/zwem.png'>";
+    }
+    echo "<br>";
+}
+?>
 </table>
 </body>
 </html>
