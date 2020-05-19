@@ -1,7 +1,7 @@
 <?php
 
-$user='schooluser';
-$pass='password';
+$user='root';
+$pass='';
 
 try {
     $dbh = new PDO('mysql:host=localhost;dbname=school;port=3306', $user, $pass);
