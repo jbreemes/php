@@ -1,8 +1,8 @@
 <?php
 
-print("De volgende momenten zijn nog beschikbaar:<ul>");
+print("De volgende zijn nog beschikbaar:<ul>");
 
-$aKappersagenda = array(
+$agenda = array(
     "9:15" => "Mevr. Pietersen",
     "9:30" => "Mevr. Willems",
     "9:45" => "",
@@ -11,7 +11,7 @@ $aKappersagenda = array(
     "10:30" => ""
 );
 
-foreach ($aKappersagenda as $tijd => $afspraak) {
+foreach ($agenda as $tijd => $afspraak) {
     if ($afspraak == ""){
         print("<li>".$tijd."</li>") ;
         echo $afspraak;
