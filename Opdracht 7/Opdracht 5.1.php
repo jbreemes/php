@@ -11,7 +11,7 @@
     </style>
 </head>
 <body>
-<FORM NAME ="site" METHOD ="POST" ACTION = "Opdracht%204.2.php" >
+<FORM NAME ="site" METHOD ="POST" ACTION = "Opdracht%205.1.php" >
 
     <input type="text" name="inlognaam" placeholder="email of gebruikernaam" required value=> <br>
     <input type="password" name="wachtwoord" placeholder="wachtwoord" value=>
