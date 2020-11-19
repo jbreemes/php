@@ -41,9 +41,10 @@
         or die("Error while searching");
 
         if ($inlog->fetch()) {
-            echo "Welkom!";
+
         } elseif($gebruiker=='admin' && $wachtwoord =='admin01'){
-            echo "Welkom".$gebruiker;
+
+             header('location: Opdracht%205.11.php');
         }else{
             echo "Geen toegang";
         }
@@ -52,7 +53,7 @@
 
     }
     ?>
-</FORM>K
+</FORM>
 </body>
 </html>
 
